@@ -134,12 +134,9 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 		
 	</head>
 	<body class="header-page page-has-banner  wsite-theme-light  wsite-page-index banner-overlay-off alternate-banner-off sticky-nav-on minicart-total-on "><div class="wrapper">
-    
-          <!-- <button class="hamburger">
-            <svg width="22" height="15" viewBox="0 0 22 15" xmlns="http://www.w3.org/2000/svg"><g fill="currentColor" fill-rule="evenodd"><path d="M20.308 2.256H1.128C.505 2.256 0 1.75 0 1.128 0 .505.505 0 1.128 0h19.18c.623 0 1.128.505 1.128 1.128 0 .623-.505 1.128-1.128 1.128zM20.308 8.462H1.128C.505 8.462 0 7.956 0 7.332c0-.622.505-1.127 1.128-1.127h19.18c.623 0 1.128.505 1.128 1.128 0 .623-.505 1.13-1.128 1.13zM20.308 14.667H1.128c-.623 0-1.128-.505-1.128-1.13 0-.622.505-1.127 1.128-1.127h19.18c.623 0 1.128.505 1.128 1.128 0 .624-.505 1.13-1.128 1.13z"/></g></svg>
-            <span class="sr-only">Menu</span>
-          </button> -->
-
+    <?php 
+        unset($_SESSION);
+    ?>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <ul class="navbar-nav">
             <li class="nav-item">
@@ -185,7 +182,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 <div class="wsite-spacer" style="height:19px;"></div>
 
 <div style="text-align:center;"><div style="height: 10px; overflow: hidden;"></div>
-<a class="btn btn-primary" href="/" >Get Started</a>
+<a class="btn btn-primary" href="SignUp.php" >Get Started</a>
 <div style="height: 10px; overflow: hidden;"></div></div>
 
 
@@ -392,7 +389,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 <div class="wsite-spacer" style="height:50px;"></div>
 
 <div style="text-align:center;"><div style="height: 10px; overflow: hidden;"></div>
-<a class="wsite-button wsite-button-small wsite-button-normal" href="/sign-up.html" >
+<a class="wsite-button wsite-button-small wsite-button-normal" href="SignUp.php" >
 <span class="wsite-button-inner">GET STARTED</span>
 </a>
 <div style="height: 10px; overflow: hidden;"></div></div>

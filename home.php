@@ -27,13 +27,13 @@
             <h1 style="font-weight: bold; padding-left:50px" >Welcome <?php echo $_SESSION['username']?></h1>
         <ul class="list-group" style=" text-align:center; width: 400px; " >
         <li class="list-group-item" style=" text-align:center">
-                <a href="chat.php" class="list-group-item list-group-item-action">
+                <a href="title.php" class="list-group-item list-group-item-action">
                 <img src="Images/chat.jpg" alt="" style="width: 300px; height: 150px" >
                     Chat and Ask Questions Now
                 </a>
             </li>
             <li class="list-group-item" style=" text-align:center" >
-                <a href=" " class="list-group-item list-group-item-action">
+                <a href="resources.php" class="list-group-item list-group-item-action">
                 <img src="Images/resources.jpg" alt="" style="width: 300px; height: 150px" >
                     Get Resources
                 </a>
