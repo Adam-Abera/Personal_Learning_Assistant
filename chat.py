@@ -19,8 +19,8 @@ try:
     myresult = mycursor.fetchall()
     #print(sys.argv[1] + ' ' + str(myresult))
     base_url = "https://api.openai.com/v1/"
-    openai_token = "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"
-    hf_api_key = "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" # Hugging Face API key
+    openai_token = "open ai token"
+    hf_api_key = "Hugging Face API key"
 
 
     openai_header = {
